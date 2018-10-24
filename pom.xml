@@ -7,7 +7,7 @@
 
   <groupId>edu.mit.ll.xml-avro-converter</groupId>
   <artifactId>xml-avro-converter-all</artifactId>
-  <version>1.0.0</version>
+  <version>1.0.0-SNAPSHOT</version>
   <packaging>pom</packaging>
   <name>XML-Avro Converter Aggregator</name>
 
