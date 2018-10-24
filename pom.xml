@@ -11,6 +11,24 @@
   <packaging>pom</packaging>
   <name>XML-Avro Converter Aggregator</name>
 
+    <!-- for the SEEBURGER release -->
+    <scm>
+        <url>https://github.com/seeburger-ag/xml-avro-converter</url>
+        <connection>scm:git:https://github.com/seeburger-ag/xml-avro-converter.git</connection>
+        <developerConnection>scm:git:ssh://git@github.com/seeburger-ag/xml-avro-converter.git</developerConnection>
+        <tag>1.0.0-seeburger</tag>
+    </scm>
+    <distributionManagement>
+        <repository>
+            <id>release</id>
+            <url>https://repo.seeburger.de/archiva/repository/release/</url>
+        </repository>
+        <snapshotRepository>
+            <id>snapshot</id>
+            <url>https://repo.seeburger.de/archiva/repository/snapshot/</url>
+        </snapshotRepository>
+    </distributionManagement>
+
   <modules>
     <module>xml-avro-converter-core</module>
     <module>xml-avro-converter-examples</module>
